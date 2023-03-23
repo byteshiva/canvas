@@ -15,7 +15,7 @@ napi = {version = "1", features = ["serde-json"]}
 napi-derive = "1"
 nom = "7"
 once_cell = "1"
-ravif = "0.8"
+ravif = "0.11"
 regex = "1"
 "rgb" = "0.8"
 serde = "1"
