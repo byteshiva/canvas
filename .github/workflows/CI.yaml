@@ -100,7 +100,7 @@ jobs:
     runs-on: ${{ matrix.settings.host }}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true
 
@@ -194,7 +194,7 @@ jobs:
     runs-on: ${{ matrix.settings.host }}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true
 
@@ -255,7 +255,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Download Apple Emoji font
         uses: robinraju/release-downloader@v1
@@ -314,7 +314,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Download Apple Emoji font
         uses: robinraju/release-downloader@v1
@@ -375,7 +375,7 @@ jobs:
     steps:
       - run: docker run --rm --privileged multiarch/qemu-user-static:register --reset
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Download Apple Emoji font
         uses: robinraju/release-downloader@v1
@@ -423,7 +423,7 @@ jobs:
     steps:
       - run: docker run --rm --privileged multiarch/qemu-user-static:register --reset
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Download Apple Emoji font
         uses: robinraju/release-downloader@v1
@@ -475,7 +475,7 @@ jobs:
     steps:
       - run: docker run --rm --privileged multiarch/qemu-user-static:register --reset
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Download Apple Emoji font
         uses: robinraju/release-downloader@v1
@@ -525,7 +525,7 @@ jobs:
       - test-macOS-windows-binding
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true
 
