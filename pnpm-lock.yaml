@@ -14,7 +14,7 @@ specifiers:
   ava: ^3.15.0
   benny: ^3.7.1
   canvas: ^2.8.0
-  canvaskit-wasm: ^0.32.0
+  canvaskit-wasm: ^0.38.0
   chalk: '4'
   conventional-changelog-cli: ^2.1.1
   eslint: ^8.4.1
@@ -47,7 +47,7 @@ devDependencies:
   ava: 3.15.0
   benny: 3.7.1
   canvas: 2.8.0
-  canvaskit-wasm: 0.32.0
+  canvaskit-wasm: 0.38.0
   chalk: 4.1.2
   conventional-changelog-cli: 2.1.1
   eslint: 8.4.1
@@ -1144,8 +1144,8 @@ packages:
       - supports-color
     dev: true
 
-  /canvaskit-wasm/0.32.0:
-    resolution: {integrity: sha512-H3Por5oDOXLXje5j+7aPTUtHvfRpYFm4u073Xi2kSBfS3vZQmDoiLdwQthf00zTUBtOK1lX8+6qmBFHdfKdxRw==}
+  /canvaskit-wasm/0.38.0:
+    resolution: {integrity: sha512-ZEG6lucpbQ4Ld+mY8C1Ng+PMLVP+/AX02jS0Sdl28NyMxuKSa9uKB8oGd1BYp1XWPyO2Jgr7U8pdyjJ/F3xR5Q==}
     dev: true
 
   /chalk/2.4.2:
