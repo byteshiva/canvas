@@ -10,7 +10,7 @@ crate-type = ["cdylib"]
 [dependencies]
 anyhow = "1"
 base64 = "0.13"
-cssparser = "0.29"
+cssparser = "0.34"
 napi = {version = "1", features = ["serde-json"]}
 napi-derive = "1"
 nom = "7"
